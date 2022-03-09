@@ -44,7 +44,7 @@ body  {
 }
 .search input {
     position: absolute;
-    width: 500px;
+    width: 490px;
     height: 35px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius:20px;
@@ -56,7 +56,7 @@ body  {
 .search .pesquisaImagens{
     display: flex;
     position: relative;
-    margin-left: 27%;
+    margin-left: 410px;
 }
 .search .micro {
     width: 15px;
@@ -105,3 +105,67 @@ footer {
     font-family: roboto;
     text-decoration: none;
 }
+
+@media (min-width:500px) and (max-width:900px) {
+    body {
+        font-size: 11px;
+    }
+    .logo img {
+        width: 350px;
+    }
+    .search input {
+    
+    }
+    button {
+        font-size: 11px;
+    }
+    .search .pesquisaImagens{
+        display: flex;
+        position: relative;
+        margin-left: 410px;
+        
+    }
+    }
+    @media (max-width:500px) {
+        body {
+            font-size: 9px;
+        }
+    .logo img {
+        width: 150px;
+    }
+    .search input {
+        width: 170px;
+        height: 22px;
+    }
+    .search .micro {
+        width: 8px;
+        height: 11px;
+        padding-left: 3px;
+        
+    }
+    .search .keyboard {
+        
+        height: 12px;
+        
+    }
+
+    button {
+        font-size: 10px;
+    }
+    .search .pesquisaImagens{
+        display: flex;
+        position: relative;
+        margin-left: 120px;
+        
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .rightalign , .leftalign {
+        justify-content: center;
+        width: auto;
+
+    }
+    }
