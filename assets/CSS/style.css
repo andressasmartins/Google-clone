@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body  {
+    width: 100%;
+    height: 100%;
+}
+.menuonright {
+    display: flex;
+    justify-content: right;
+}
+.menuonright .user {
+    width: 30px;
+    padding-top: 15px;
+}
+.menuonright .apps {
+    width: 15px;
+    padding-top: 23px;
+}
+.menuonright a {
+    padding-right: 15px;
+    text-decoration: none;
+    font-family: roboto;
+}
+.links {
+    padding-right: 1%;
+    padding-top: 20px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logo img {
+    width: 350px;
+}
+.search , .buttons {
+    display: flex;
+    justify-content: center;
+    font-family: roboto;
+}
+.search input {
+    position: absolute;
+    width: 500px;
+    height: 35px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    outline: 0px;
+    border: 3px solid rgb(244, 242, 242) ;
+}
+.search .pesquisaImagens{
+    display: flex;
+    position: relative;
+    margin-left: 27%;
+}
+.search .micro {
+    width: 15px;
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+.search .keyboard {
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 25px;
+}
+button {
+    margin-top: 4%;
+    margin-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top:0.5%;
+    padding-bottom: 0.5%;
+    font-family: roboto;
+    font-weight: 600;
+    color: rgb(142, 139, 139);
+    border: none;
+    background-color: rgb(244, 242, 242);   
+}
+footer {
+    background-color: rgb(244, 242, 242) ;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.rightalign {
+    display: flex;
+    justify-content: right;
+    width: 300px;
+}
+.leftalign {
+    display: flex;
+    justify-content: left;
+    width: 400px;
+}
+.rightalign a  , .leftalign a {
+    padding: 15px;
+    font-family: roboto;
+    text-decoration: none;
+}
